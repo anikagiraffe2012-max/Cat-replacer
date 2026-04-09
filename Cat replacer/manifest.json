@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Cat Replacer",
+  "version": "1.0",
+  "description": "Replaces all images with random cats!",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
